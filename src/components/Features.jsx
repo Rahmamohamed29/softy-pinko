@@ -28,7 +28,6 @@ export default function Features() {
               key={index}
               className="bg-white rounded-[20px] p-9 shadow-[0_2px_48px_0_rgba(0,0,0,0.08)] hover:shadow-[0_15px_40px_0_rgba(120,87,254,0.16)] text-center group hover:-translate-y-2 transition-all duration-300 cursor-pointer"
             >
-              {/* الدائرة البنفسجية وجواها صورة عادية */}
               <div className="w-[90px] h-[90px] bg-[#7857fe] group-hover:bg-[#ff589e] transition-colors duration-300 rounded-full flex items-center justify-center mx-auto mb-7 shadow-md">
                 <img
                   src={item.icon}
